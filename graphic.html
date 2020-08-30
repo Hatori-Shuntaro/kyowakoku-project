@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>共和国</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/graphic.css">
+    <link rel="stylesheet" href="css/lightgallery.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="graphic.html">Graphic</a></li>
+            </ul>
+        </nav>
+        <a href="home.html">
+            <img src="logo2.png" alt="ロゴ画像" class="logo">
+        </a>
+    </header>
+    <main>
+        <div class="title">
+            <p>Graphics</p>
+        </div>
+        <div id="lightgallery">
+            <a href="graphics/logo1.png">
+                <img src="graphics/logo1.png" alt="共和国最初のロゴ">
+            </a>
+            <a href="graphics/logo2.png">
+                <img src="graphics/logo2.png" alt="共和国のロゴ">
+            </a>
+            <a href="graphics/kyowakoku.png">
+                <img src="graphics/kyowakoku.png" alt="vaporwave風ロゴ">
+            </a>
+            <a href="graphics/logo_KYW.png">
+                <img src="graphics/logo_KYW.png" alt="KYW Logo">
+            </a>
+            <a href="graphics/PulseNoise_kyowakokuLogo.png">
+                <img src="graphics/PulseNoise_kyowakokuLogo.png" alt="ノイズの入ったロゴ">
+            </a>
+        </div>
+    </main>
+    <footer>
+        <p class="copy-right">kyowakoku since 2019-2020</p>
+    </footer>
+
+    <script src="js/lightgallery.min.js"></script>
+    <script src="js/lg-thumbnail.min.js"></script>
+    <script src="js/lg-fullscreen.min.js"></script>
+    <script src="js/lg-hash.min.js"></script>
+    <script src="js/lg-pager.min.js"></script>
+    <script src="js/lg-share.min.js"></script>
+    <script>
+        lightGallery(document.getElementById('lightgallery'));
+    </script>
+</body>
+</html>
